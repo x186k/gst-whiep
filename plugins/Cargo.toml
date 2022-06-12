@@ -63,5 +63,5 @@ versioning = false
 [package.metadata.capi.pkg_config]
 requires_private = "gstreamer-rtp >= 1.20, gstreamer-webrtc >= 1.20, gstreamer-1.0 >= 1.20, gstreamer-app >= 1.20, gstreamer-video >= 1.20, gstreamer-sdp >= 1.20, gobject-2.0, glib-2.0, gmodule-2.0"
 
-[[example]]
-name = "webrtcsink-stats-server"
+# [[example]]
+# name = "webrtcsink-stats-server"
