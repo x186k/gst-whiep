@@ -1843,15 +1843,6 @@ dependencies = [
  "tracing-log",
  "tracing-subscriber",
  "uuid",
- "webrtcsink-protocol",
-]
-
-[[package]]
-name = "webrtcsink-protocol"
-version = "0.1.0"
-dependencies = [
- "serde",
- "serde_json",
 ]
 
 [[package]]

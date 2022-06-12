@@ -5,6 +5,7 @@ use std::error::Error;
 
 mod imp;
 
+
 glib::wrapper! {
     pub struct Signaller(ObjectSubclass<imp::Signaller>);
 }

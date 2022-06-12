@@ -10,7 +10,12 @@ use gst::subclass::prelude::*;
 use once_cell::sync::Lazy;
 use std::path::PathBuf;
 use std::sync::Mutex;
-use webrtcsink_protocol as p;
+//use webrtcsink_protocol as p;
+
+mod protocol;
+
+use protocol as p;
+
 
 static CAT: Lazy<gst::DebugCategory> = Lazy::new(|| {
     gst::DebugCategory::new(
