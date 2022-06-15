@@ -16,7 +16,6 @@ mod protocol;
 
 use protocol as p;
 
-
 static CAT: Lazy<gst::DebugCategory> = Lazy::new(|| {
     gst::DebugCategory::new(
         "webrtcsink-signaller",
